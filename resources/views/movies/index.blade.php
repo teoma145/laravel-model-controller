@@ -9,6 +9,7 @@
         <div class="col-12 col-md-3 card p-4 g-5">
             <img src="{{$movie->image}}" alt="{{$movie->title}}">
             {{$movie->title}}
+            <a href="{{route('movies.show',$movie->id)}}">dettagli film</a>
         </div>
         @endforeach
     </div>
