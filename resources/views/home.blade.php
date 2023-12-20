@@ -3,7 +3,9 @@
 @section('title','Home')
 
 @section('content')
- <main>
-    Home page
+ <main class="container mt-5 pt-5">
+    <div class="bg-info">
+        <h1 class="text-danger "><a href="">Clicca qui per la lista di film</a></h1>
+    </div>
  </main>
 @endsection
